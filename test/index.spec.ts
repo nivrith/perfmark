@@ -1,5 +1,5 @@
 import {
-  perfmark
+  Perfmark
 } from './../src/index';
 import {
   expect
@@ -7,8 +7,11 @@ import {
 
 describe('perfmark', () => {
 
-  it('Returns `hello universe`', () => {
-    expect(perfmark()).to.equal('hello universe');
+  it('expects length of benchmark to be `0`', () => {
+    let benchmark = new Perfmark();
+    expect(benchmark.length).to.equal(0);
   });
+
+  it
 
 });

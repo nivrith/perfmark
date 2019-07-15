@@ -27,7 +27,7 @@
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
     "all": true,
-    "lines": 80,
+    "lines": 20,
     "exclude": [
       "test",
       "docs",

@@ -47,6 +47,18 @@ export class Perfmark {
 
   }
 
+  get length() {
+    return this.suite.length;
+  }
+
+  get aborted () {
+    return this.suite.aborted;
+  }
+
+  get running() {
+    return this.suite.running;
+  }
+
   public add(name: string, fn: Function | string, options ? : PerfmarkOptions): Perfmark;
 
   public add(name: string, fn: Function | string, options ? : PerfmarkOptions) {
