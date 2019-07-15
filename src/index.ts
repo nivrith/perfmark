@@ -148,3 +148,18 @@ export class Perfmark {
 };
 
 export default Perfmark;
+
+const benchmark = new Perfmark();
+
+const fibonacci = (n: number): number => {
+  return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+benchmark
+  .add('test1', ()=>{
+    fibonacci(1);
+  })
+  .add('test2', ()=> {
+    fibonacci(3)
+  })
+  .run()

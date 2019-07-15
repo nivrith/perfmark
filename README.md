@@ -38,15 +38,17 @@ $ yarn add --dev perfmark
 
   const benchmark = new Perfmark();
   benchmark
-    .add('fib1', () =>{
+    .add('test1', () =>{
       fibonacci(1);
     })
-    .add('fib3', ()=> {
+    .add('test2', ()=> {
       fibonacci(3)
     })
     .run()
 
 ```
+
+<img src="perfmark.gif">
 
 ## License
 
