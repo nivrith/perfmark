@@ -1,7 +1,7 @@
 {
   "name": "perfmark",
   "version": "0.0.0",
-  "description": "elegant benchmarking in node &amp; typescript",
+  "description": "elegant benchmarking in node and typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/nivrith/perfmark",
