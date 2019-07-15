@@ -8,6 +8,16 @@
   "author": "Nivrith <nivrithgomatam@gmail.com>",
   "license": "MIT",
   "keywords": [
+    "benchmark",
+    "benchmarking",
+    "performance",
+    "optimization",
+    "perf",
+    "bench",
+    "bencher",
+    "benchit",
+    "bencmarkjs",
+    "benchmark-typescript",
     "perfmark"
   ],
   "scripts": {
